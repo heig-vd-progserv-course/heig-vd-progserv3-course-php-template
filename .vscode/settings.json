@@ -1,0 +1,30 @@
+{
+  "[blade]": {
+    "editor.defaultFormatter": "open-southeners.laravel-pint"
+  },
+  "[php]": {
+    "editor.defaultFormatter": "open-southeners.laravel-pint"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.renderWhitespace": "all",
+  "editor.rulers": [80],
+  // Uncomment to disable inline suggestions, which can be distracting for learning purposes
+  // "editor.inlineSuggest.enabled": false,
+  "files.encoding": "utf8",
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  // Uncomment to disable GitHub Copilot, which can be distracting for learning purposes
+  // "github.copilot.enable": {
+  // 	"*": false
+  // },
+  "intelephense.format.braces": "k&r",
+  "laravel-pint.formatBlade": true,
+  "prettier.endOfLine": "lf",
+  "prettier.printWidth": 80,
+  "prettier.proseWrap": "always",
+  "prettier.tabWidth": 4,
+  "prettier.useTabs": false,
+  "workbench.browser.openLocalhostLinks": false
+}

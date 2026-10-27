@@ -1,6 +1,6 @@
 {
     "name": "HEIG-VD ProgServ3 Course Development Container",
-    "image": "mcr.microsoft.com/devcontainers/base:trixie",
+    "image": "mcr.microsoft.com/devcontainers/php:8.5-trixie",
     "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
     "workspaceFolder": "/workspace",
     "features": {

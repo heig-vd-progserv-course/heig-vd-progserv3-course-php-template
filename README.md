@@ -17,7 +17,7 @@ Il fournit une structure de base pour les projets PHP avec les éléments suivan
   [SQLite Viewer](https://marketplace.visualstudio.com/items?itemName=qwtel.sqlite-viewer),
   [Laravel](https://marketplace.visualstudio.com/items?itemName=laravel.vscode-laravel)
   et
-  [Laravel Pint](https://marketplace.visualstudio.com/items?itemName=open-southeners.laravel-pint)).
+  [vscode-blade-formatter](https://marketplace.visualstudio.com/items?itemName=shufo.vscode-blade-formatter)).
 
 Tous ses éléments sont configurés pour fonctionner avec
 [Docker Compose](https://docs.docker.com/compose/), ce qui permet de créer un

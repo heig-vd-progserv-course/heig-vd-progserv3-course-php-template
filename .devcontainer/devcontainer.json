@@ -19,8 +19,8 @@
                 "cweijan.vscode-database-client2",
                 "esbenp.prettier-vscode",
                 "laravel.vscode-laravel",
-                "open-southeners.laravel-pint",
-                "qwtel.sqlite-viewer"
+                "qwtel.sqlite-viewer",
+                "shufo.vscode-blade-formatter"
             ]
         }
     },

@@ -1,9 +1,6 @@
 {
     "name": "HEIG-VD ProgServ3 Course Development Container",
-    "image": "mcr.microsoft.com/devcontainers/php:8.5-trixie",
-    "containerEnv": {
-        "XDEBUG_MODE": "off"
-    },
+    "image": "mcr.microsoft.com/devcontainers/base:trixie",
     "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
     "workspaceFolder": "/workspace",
     "features": {
@@ -27,15 +24,18 @@
             ]
         }
     },
-    "forwardPorts": [8000, 8025],
+    "forwardPorts": [5173, 8000, 8025],
     "portsAttributes": {
-        "8025": {
-            "label": "Mailpit SMTP Server"
+        "5173": {
+            "label": "Vite Development Server"
         },
         "8000": {
             "label": "Laravel Development Server"
+        },
+        "8025": {
+            "label": "Mailpit SMTP Server"
         }
     },
     // Execute the following command once the container is created
-    "postCreateCommand": "sudo apt update && sudo apt install --yes sqlite3"
+    "postCreateCommand": ".devcontainer/post-create.sh"
 }
